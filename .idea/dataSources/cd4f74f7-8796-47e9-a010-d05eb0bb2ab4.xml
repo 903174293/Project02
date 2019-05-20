@@ -1,0 +1,1842 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataSource name="VK-Local">
+  <database-model serializer="dbm" rdbms="MYSQL" format-version="4.11">
+    <root id="1">
+      <ServerVersion>5.7.4</ServerVersion>
+      <DefaultEngine>MyISAM</DefaultEngine>
+      <DefaultTmpEngine>InnoDB</DefaultTmpEngine>
+      <DefaultCasing>lower/lower</DefaultCasing>
+    </root>
+    <schema id="2" parent="1" name="basicdata">
+      <Current>1</Current>
+      <Visible>1</Visible>
+      <Collation>utf8_general_ci</Collation>
+    </schema>
+    <schema id="3" parent="1" name="bookstore_new">
+      <Collation>gb2312_chinese_ci</Collation>
+    </schema>
+    <schema id="4" parent="1" name="dept8001">
+      <Collation>utf8_general_ci</Collation>
+    </schema>
+    <schema id="5" parent="1" name="dept8002">
+      <Collation>utf8_general_ci</Collation>
+    </schema>
+    <schema id="6" parent="1" name="dept8003">
+      <Collation>utf8_general_ci</Collation>
+    </schema>
+    <schema id="7" parent="1" name="easyui">
+      <Collation>utf8_general_ci</Collation>
+    </schema>
+    <schema id="8" parent="1" name="information_schema">
+      <Collation>utf8_general_ci</Collation>
+    </schema>
+    <schema id="9" parent="1" name="insight">
+      <Collation>utf8_general_ci</Collation>
+    </schema>
+    <schema id="10" parent="1" name="itcast0807crm">
+      <Collation>utf8_general_ci</Collation>
+    </schema>
+    <schema id="11" parent="1" name="jfinal_demo">
+      <Collation>utf8_general_ci</Collation>
+    </schema>
+    <schema id="12" parent="1" name="jquery_photo">
+      <Collation>utf8_general_ci</Collation>
+    </schema>
+    <schema id="13" parent="1" name="lsn_surveypark001">
+      <Collation>utf8_general_ci</Collation>
+    </schema>
+    <schema id="14" parent="1" name="lsn_surveypark001_1">
+      <Collation>utf8_general_ci</Collation>
+    </schema>
+    <schema id="15" parent="1" name="mldn">
+      <Collation>utf8_general_ci</Collation>
+    </schema>
+    <schema id="16" parent="1" name="mldnauthor">
+      <Collation>utf8_general_ci</Collation>
+    </schema>
+    <schema id="17" parent="1" name="mldnbootshiro">
+      <Collation>utf8_general_ci</Collation>
+    </schema>
+    <schema id="18" parent="1" name="mldndibmp">
+      <Collation>utf8_general_ci</Collation>
+    </schema>
+    <schema id="19" parent="1" name="mldneusplatform">
+      <Collation>utf8_general_ci</Collation>
+    </schema>
+    <schema id="20" parent="1" name="mldngoods">
+      <Collation>utf8_general_ci</Collation>
+    </schema>
+    <schema id="21" parent="1" name="mldnhibernate">
+      <Collation>utf8_general_ci</Collation>
+    </schema>
+    <schema id="22" parent="1" name="mldnjpa">
+      <Collation>utf8_general_ci</Collation>
+    </schema>
+    <schema id="23" parent="1" name="mldnmybatis">
+      <Collation>utf8_general_ci</Collation>
+    </schema>
+    <schema id="24" parent="1" name="mldnoauthauthz">
+      <Collation>utf8_general_ci</Collation>
+    </schema>
+    <schema id="25" parent="1" name="mldnoauthclient">
+      <Collation>utf8_general_ci</Collation>
+    </schema>
+    <schema id="26" parent="1" name="mldnshiro">
+      <Collation>utf8_general_ci</Collation>
+    </schema>
+    <schema id="27" parent="1" name="mldnshopcar">
+      <Collation>utf8_general_ci</Collation>
+    </schema>
+    <schema id="28" parent="1" name="mldnsplitpage">
+      <Collation>utf8_general_ci</Collation>
+    </schema>
+    <schema id="29" parent="1" name="mldnspring">
+      <Collation>utf8_general_ci</Collation>
+    </schema>
+    <schema id="30" parent="1" name="mldnspringboot">
+      <Collation>utf8_general_ci</Collation>
+    </schema>
+    <schema id="31" parent="1" name="mldnspringbootmybatis">
+      <Collation>utf8_general_ci</Collation>
+    </schema>
+    <schema id="32" parent="1" name="mldnssh">
+      <Collation>utf8_general_ci</Collation>
+    </schema>
+    <schema id="33" parent="1" name="mldnssm">
+      <Collation>utf8_general_ci</Collation>
+    </schema>
+    <schema id="34" parent="1" name="mmdata_key">
+      <Collation>utf8_croatian_ci</Collation>
+    </schema>
+    <schema id="35" parent="1" name="mp">
+      <Collation>utf8_general_ci</Collation>
+    </schema>
+    <schema id="36" parent="1" name="mysql">
+      <Collation>utf8_general_ci</Collation>
+    </schema>
+    <schema id="37" parent="1" name="performance_schema">
+      <Collation>utf8_general_ci</Collation>
+    </schema>
+    <schema id="38" parent="1" name="pre_bookstore">
+      <Collation>utf8_general_ci</Collation>
+    </schema>
+    <schema id="39" parent="1" name="reviews">
+      <Collation>utf8_general_ci</Collation>
+    </schema>
+    <schema id="40" parent="1" name="server_dev">
+      <Current>1</Current>
+      <Visible>1</Visible>
+      <Collation>utf8_general_ci</Collation>
+    </schema>
+    <schema id="41" parent="1" name="server_uat">
+      <Collation>utf8mb4_bin</Collation>
+    </schema>
+    <schema id="42" parent="1" name="ssm_crud">
+      <Collation>utf8_general_ci</Collation>
+    </schema>
+    <schema id="43" parent="1" name="test">
+      <Collation>latin1_swedish_ci</Collation>
+    </schema>
+    <schema id="44" parent="1" name="yy">
+      <Collation>utf8_general_ci</Collation>
+    </schema>
+    <schema id="45" parent="1" name="yy_new">
+      <Collation>utf8_general_ci</Collation>
+    </schema>
+    <schema id="46" parent="1" name="zipkin">
+      <Collation>utf8_general_ci</Collation>
+    </schema>
+    <collation id="47" parent="1" name="armscii8_bin">
+      <Charset>armscii8</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="48" parent="1" name="armscii8_general_ci">
+      <Charset>armscii8</Charset>
+      <DefaultForCharset>1</DefaultForCharset>
+    </collation>
+    <collation id="49" parent="1" name="ascii_bin">
+      <Charset>ascii</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="50" parent="1" name="ascii_general_ci">
+      <Charset>ascii</Charset>
+      <DefaultForCharset>1</DefaultForCharset>
+    </collation>
+    <collation id="51" parent="1" name="big5_bin">
+      <Charset>big5</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="52" parent="1" name="big5_chinese_ci">
+      <Charset>big5</Charset>
+      <DefaultForCharset>1</DefaultForCharset>
+    </collation>
+    <collation id="53" parent="1" name="binary">
+      <Charset>binary</Charset>
+      <DefaultForCharset>1</DefaultForCharset>
+    </collation>
+    <collation id="54" parent="1" name="cp1250_bin">
+      <Charset>cp1250</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="55" parent="1" name="cp1250_croatian_ci">
+      <Charset>cp1250</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="56" parent="1" name="cp1250_czech_cs">
+      <Charset>cp1250</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="57" parent="1" name="cp1250_general_ci">
+      <Charset>cp1250</Charset>
+      <DefaultForCharset>1</DefaultForCharset>
+    </collation>
+    <collation id="58" parent="1" name="cp1250_polish_ci">
+      <Charset>cp1250</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="59" parent="1" name="cp1251_bin">
+      <Charset>cp1251</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="60" parent="1" name="cp1251_bulgarian_ci">
+      <Charset>cp1251</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="61" parent="1" name="cp1251_general_ci">
+      <Charset>cp1251</Charset>
+      <DefaultForCharset>1</DefaultForCharset>
+    </collation>
+    <collation id="62" parent="1" name="cp1251_general_cs">
+      <Charset>cp1251</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="63" parent="1" name="cp1251_ukrainian_ci">
+      <Charset>cp1251</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="64" parent="1" name="cp1256_bin">
+      <Charset>cp1256</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="65" parent="1" name="cp1256_general_ci">
+      <Charset>cp1256</Charset>
+      <DefaultForCharset>1</DefaultForCharset>
+    </collation>
+    <collation id="66" parent="1" name="cp1257_bin">
+      <Charset>cp1257</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="67" parent="1" name="cp1257_general_ci">
+      <Charset>cp1257</Charset>
+      <DefaultForCharset>1</DefaultForCharset>
+    </collation>
+    <collation id="68" parent="1" name="cp1257_lithuanian_ci">
+      <Charset>cp1257</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="69" parent="1" name="cp850_bin">
+      <Charset>cp850</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="70" parent="1" name="cp850_general_ci">
+      <Charset>cp850</Charset>
+      <DefaultForCharset>1</DefaultForCharset>
+    </collation>
+    <collation id="71" parent="1" name="cp852_bin">
+      <Charset>cp852</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="72" parent="1" name="cp852_general_ci">
+      <Charset>cp852</Charset>
+      <DefaultForCharset>1</DefaultForCharset>
+    </collation>
+    <collation id="73" parent="1" name="cp866_bin">
+      <Charset>cp866</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="74" parent="1" name="cp866_general_ci">
+      <Charset>cp866</Charset>
+      <DefaultForCharset>1</DefaultForCharset>
+    </collation>
+    <collation id="75" parent="1" name="cp932_bin">
+      <Charset>cp932</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="76" parent="1" name="cp932_japanese_ci">
+      <Charset>cp932</Charset>
+      <DefaultForCharset>1</DefaultForCharset>
+    </collation>
+    <collation id="77" parent="1" name="dec8_bin">
+      <Charset>dec8</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="78" parent="1" name="dec8_swedish_ci">
+      <Charset>dec8</Charset>
+      <DefaultForCharset>1</DefaultForCharset>
+    </collation>
+    <collation id="79" parent="1" name="eucjpms_bin">
+      <Charset>eucjpms</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="80" parent="1" name="eucjpms_japanese_ci">
+      <Charset>eucjpms</Charset>
+      <DefaultForCharset>1</DefaultForCharset>
+    </collation>
+    <collation id="81" parent="1" name="euckr_bin">
+      <Charset>euckr</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="82" parent="1" name="euckr_korean_ci">
+      <Charset>euckr</Charset>
+      <DefaultForCharset>1</DefaultForCharset>
+    </collation>
+    <collation id="83" parent="1" name="gb18030_bin">
+      <Charset>gb18030</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="84" parent="1" name="gb18030_chinese_ci">
+      <Charset>gb18030</Charset>
+      <DefaultForCharset>1</DefaultForCharset>
+    </collation>
+    <collation id="85" parent="1" name="gb18030_unicode_520_ci">
+      <Charset>gb18030</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="86" parent="1" name="gb2312_bin">
+      <Charset>gb2312</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="87" parent="1" name="gb2312_chinese_ci">
+      <Charset>gb2312</Charset>
+      <DefaultForCharset>1</DefaultForCharset>
+    </collation>
+    <collation id="88" parent="1" name="gbk_bin">
+      <Charset>gbk</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="89" parent="1" name="gbk_chinese_ci">
+      <Charset>gbk</Charset>
+      <DefaultForCharset>1</DefaultForCharset>
+    </collation>
+    <collation id="90" parent="1" name="geostd8_bin">
+      <Charset>geostd8</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="91" parent="1" name="geostd8_general_ci">
+      <Charset>geostd8</Charset>
+      <DefaultForCharset>1</DefaultForCharset>
+    </collation>
+    <collation id="92" parent="1" name="greek_bin">
+      <Charset>greek</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="93" parent="1" name="greek_general_ci">
+      <Charset>greek</Charset>
+      <DefaultForCharset>1</DefaultForCharset>
+    </collation>
+    <collation id="94" parent="1" name="hebrew_bin">
+      <Charset>hebrew</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="95" parent="1" name="hebrew_general_ci">
+      <Charset>hebrew</Charset>
+      <DefaultForCharset>1</DefaultForCharset>
+    </collation>
+    <collation id="96" parent="1" name="hp8_bin">
+      <Charset>hp8</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="97" parent="1" name="hp8_english_ci">
+      <Charset>hp8</Charset>
+      <DefaultForCharset>1</DefaultForCharset>
+    </collation>
+    <collation id="98" parent="1" name="keybcs2_bin">
+      <Charset>keybcs2</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="99" parent="1" name="keybcs2_general_ci">
+      <Charset>keybcs2</Charset>
+      <DefaultForCharset>1</DefaultForCharset>
+    </collation>
+    <collation id="100" parent="1" name="koi8r_bin">
+      <Charset>koi8r</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="101" parent="1" name="koi8r_general_ci">
+      <Charset>koi8r</Charset>
+      <DefaultForCharset>1</DefaultForCharset>
+    </collation>
+    <collation id="102" parent="1" name="koi8u_bin">
+      <Charset>koi8u</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="103" parent="1" name="koi8u_general_ci">
+      <Charset>koi8u</Charset>
+      <DefaultForCharset>1</DefaultForCharset>
+    </collation>
+    <collation id="104" parent="1" name="latin1_bin">
+      <Charset>latin1</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="105" parent="1" name="latin1_danish_ci">
+      <Charset>latin1</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="106" parent="1" name="latin1_general_ci">
+      <Charset>latin1</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="107" parent="1" name="latin1_general_cs">
+      <Charset>latin1</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="108" parent="1" name="latin1_german1_ci">
+      <Charset>latin1</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="109" parent="1" name="latin1_german2_ci">
+      <Charset>latin1</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="110" parent="1" name="latin1_spanish_ci">
+      <Charset>latin1</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="111" parent="1" name="latin1_swedish_ci">
+      <Charset>latin1</Charset>
+      <DefaultForCharset>1</DefaultForCharset>
+    </collation>
+    <collation id="112" parent="1" name="latin2_bin">
+      <Charset>latin2</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="113" parent="1" name="latin2_croatian_ci">
+      <Charset>latin2</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="114" parent="1" name="latin2_czech_cs">
+      <Charset>latin2</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="115" parent="1" name="latin2_general_ci">
+      <Charset>latin2</Charset>
+      <DefaultForCharset>1</DefaultForCharset>
+    </collation>
+    <collation id="116" parent="1" name="latin2_hungarian_ci">
+      <Charset>latin2</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="117" parent="1" name="latin5_bin">
+      <Charset>latin5</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="118" parent="1" name="latin5_turkish_ci">
+      <Charset>latin5</Charset>
+      <DefaultForCharset>1</DefaultForCharset>
+    </collation>
+    <collation id="119" parent="1" name="latin7_bin">
+      <Charset>latin7</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="120" parent="1" name="latin7_estonian_cs">
+      <Charset>latin7</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="121" parent="1" name="latin7_general_ci">
+      <Charset>latin7</Charset>
+      <DefaultForCharset>1</DefaultForCharset>
+    </collation>
+    <collation id="122" parent="1" name="latin7_general_cs">
+      <Charset>latin7</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="123" parent="1" name="macce_bin">
+      <Charset>macce</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="124" parent="1" name="macce_general_ci">
+      <Charset>macce</Charset>
+      <DefaultForCharset>1</DefaultForCharset>
+    </collation>
+    <collation id="125" parent="1" name="macroman_bin">
+      <Charset>macroman</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="126" parent="1" name="macroman_general_ci">
+      <Charset>macroman</Charset>
+      <DefaultForCharset>1</DefaultForCharset>
+    </collation>
+    <collation id="127" parent="1" name="sjis_bin">
+      <Charset>sjis</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="128" parent="1" name="sjis_japanese_ci">
+      <Charset>sjis</Charset>
+      <DefaultForCharset>1</DefaultForCharset>
+    </collation>
+    <collation id="129" parent="1" name="swe7_bin">
+      <Charset>swe7</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="130" parent="1" name="swe7_swedish_ci">
+      <Charset>swe7</Charset>
+      <DefaultForCharset>1</DefaultForCharset>
+    </collation>
+    <collation id="131" parent="1" name="tis620_bin">
+      <Charset>tis620</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="132" parent="1" name="tis620_thai_ci">
+      <Charset>tis620</Charset>
+      <DefaultForCharset>1</DefaultForCharset>
+    </collation>
+    <collation id="133" parent="1" name="ucs2_bin">
+      <Charset>ucs2</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="134" parent="1" name="ucs2_croatian_ci">
+      <Charset>ucs2</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="135" parent="1" name="ucs2_czech_ci">
+      <Charset>ucs2</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="136" parent="1" name="ucs2_danish_ci">
+      <Charset>ucs2</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="137" parent="1" name="ucs2_esperanto_ci">
+      <Charset>ucs2</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="138" parent="1" name="ucs2_estonian_ci">
+      <Charset>ucs2</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="139" parent="1" name="ucs2_general_ci">
+      <Charset>ucs2</Charset>
+      <DefaultForCharset>1</DefaultForCharset>
+    </collation>
+    <collation id="140" parent="1" name="ucs2_general_mysql500_ci">
+      <Charset>ucs2</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="141" parent="1" name="ucs2_german2_ci">
+      <Charset>ucs2</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="142" parent="1" name="ucs2_hungarian_ci">
+      <Charset>ucs2</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="143" parent="1" name="ucs2_icelandic_ci">
+      <Charset>ucs2</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="144" parent="1" name="ucs2_latvian_ci">
+      <Charset>ucs2</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="145" parent="1" name="ucs2_lithuanian_ci">
+      <Charset>ucs2</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="146" parent="1" name="ucs2_persian_ci">
+      <Charset>ucs2</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="147" parent="1" name="ucs2_polish_ci">
+      <Charset>ucs2</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="148" parent="1" name="ucs2_roman_ci">
+      <Charset>ucs2</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="149" parent="1" name="ucs2_romanian_ci">
+      <Charset>ucs2</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="150" parent="1" name="ucs2_sinhala_ci">
+      <Charset>ucs2</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="151" parent="1" name="ucs2_slovak_ci">
+      <Charset>ucs2</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="152" parent="1" name="ucs2_slovenian_ci">
+      <Charset>ucs2</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="153" parent="1" name="ucs2_spanish2_ci">
+      <Charset>ucs2</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="154" parent="1" name="ucs2_spanish_ci">
+      <Charset>ucs2</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="155" parent="1" name="ucs2_swedish_ci">
+      <Charset>ucs2</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="156" parent="1" name="ucs2_turkish_ci">
+      <Charset>ucs2</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="157" parent="1" name="ucs2_unicode_520_ci">
+      <Charset>ucs2</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="158" parent="1" name="ucs2_unicode_ci">
+      <Charset>ucs2</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="159" parent="1" name="ucs2_vietnamese_ci">
+      <Charset>ucs2</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="160" parent="1" name="ujis_bin">
+      <Charset>ujis</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="161" parent="1" name="ujis_japanese_ci">
+      <Charset>ujis</Charset>
+      <DefaultForCharset>1</DefaultForCharset>
+    </collation>
+    <collation id="162" parent="1" name="utf16_bin">
+      <Charset>utf16</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="163" parent="1" name="utf16_croatian_ci">
+      <Charset>utf16</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="164" parent="1" name="utf16_czech_ci">
+      <Charset>utf16</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="165" parent="1" name="utf16_danish_ci">
+      <Charset>utf16</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="166" parent="1" name="utf16_esperanto_ci">
+      <Charset>utf16</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="167" parent="1" name="utf16_estonian_ci">
+      <Charset>utf16</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="168" parent="1" name="utf16_general_ci">
+      <Charset>utf16</Charset>
+      <DefaultForCharset>1</DefaultForCharset>
+    </collation>
+    <collation id="169" parent="1" name="utf16_german2_ci">
+      <Charset>utf16</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="170" parent="1" name="utf16_hungarian_ci">
+      <Charset>utf16</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="171" parent="1" name="utf16_icelandic_ci">
+      <Charset>utf16</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="172" parent="1" name="utf16_latvian_ci">
+      <Charset>utf16</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="173" parent="1" name="utf16_lithuanian_ci">
+      <Charset>utf16</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="174" parent="1" name="utf16_persian_ci">
+      <Charset>utf16</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="175" parent="1" name="utf16_polish_ci">
+      <Charset>utf16</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="176" parent="1" name="utf16_roman_ci">
+      <Charset>utf16</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="177" parent="1" name="utf16_romanian_ci">
+      <Charset>utf16</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="178" parent="1" name="utf16_sinhala_ci">
+      <Charset>utf16</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="179" parent="1" name="utf16_slovak_ci">
+      <Charset>utf16</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="180" parent="1" name="utf16_slovenian_ci">
+      <Charset>utf16</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="181" parent="1" name="utf16_spanish2_ci">
+      <Charset>utf16</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="182" parent="1" name="utf16_spanish_ci">
+      <Charset>utf16</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="183" parent="1" name="utf16_swedish_ci">
+      <Charset>utf16</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="184" parent="1" name="utf16_turkish_ci">
+      <Charset>utf16</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="185" parent="1" name="utf16_unicode_520_ci">
+      <Charset>utf16</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="186" parent="1" name="utf16_unicode_ci">
+      <Charset>utf16</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="187" parent="1" name="utf16_vietnamese_ci">
+      <Charset>utf16</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="188" parent="1" name="utf16le_bin">
+      <Charset>utf16le</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="189" parent="1" name="utf16le_general_ci">
+      <Charset>utf16le</Charset>
+      <DefaultForCharset>1</DefaultForCharset>
+    </collation>
+    <collation id="190" parent="1" name="utf32_bin">
+      <Charset>utf32</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="191" parent="1" name="utf32_croatian_ci">
+      <Charset>utf32</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="192" parent="1" name="utf32_czech_ci">
+      <Charset>utf32</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="193" parent="1" name="utf32_danish_ci">
+      <Charset>utf32</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="194" parent="1" name="utf32_esperanto_ci">
+      <Charset>utf32</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="195" parent="1" name="utf32_estonian_ci">
+      <Charset>utf32</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="196" parent="1" name="utf32_general_ci">
+      <Charset>utf32</Charset>
+      <DefaultForCharset>1</DefaultForCharset>
+    </collation>
+    <collation id="197" parent="1" name="utf32_german2_ci">
+      <Charset>utf32</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="198" parent="1" name="utf32_hungarian_ci">
+      <Charset>utf32</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="199" parent="1" name="utf32_icelandic_ci">
+      <Charset>utf32</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="200" parent="1" name="utf32_latvian_ci">
+      <Charset>utf32</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="201" parent="1" name="utf32_lithuanian_ci">
+      <Charset>utf32</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="202" parent="1" name="utf32_persian_ci">
+      <Charset>utf32</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="203" parent="1" name="utf32_polish_ci">
+      <Charset>utf32</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="204" parent="1" name="utf32_roman_ci">
+      <Charset>utf32</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="205" parent="1" name="utf32_romanian_ci">
+      <Charset>utf32</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="206" parent="1" name="utf32_sinhala_ci">
+      <Charset>utf32</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="207" parent="1" name="utf32_slovak_ci">
+      <Charset>utf32</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="208" parent="1" name="utf32_slovenian_ci">
+      <Charset>utf32</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="209" parent="1" name="utf32_spanish2_ci">
+      <Charset>utf32</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="210" parent="1" name="utf32_spanish_ci">
+      <Charset>utf32</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="211" parent="1" name="utf32_swedish_ci">
+      <Charset>utf32</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="212" parent="1" name="utf32_turkish_ci">
+      <Charset>utf32</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="213" parent="1" name="utf32_unicode_520_ci">
+      <Charset>utf32</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="214" parent="1" name="utf32_unicode_ci">
+      <Charset>utf32</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="215" parent="1" name="utf32_vietnamese_ci">
+      <Charset>utf32</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="216" parent="1" name="utf8_bin">
+      <Charset>utf8</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="217" parent="1" name="utf8_croatian_ci">
+      <Charset>utf8</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="218" parent="1" name="utf8_czech_ci">
+      <Charset>utf8</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="219" parent="1" name="utf8_danish_ci">
+      <Charset>utf8</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="220" parent="1" name="utf8_esperanto_ci">
+      <Charset>utf8</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="221" parent="1" name="utf8_estonian_ci">
+      <Charset>utf8</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="222" parent="1" name="utf8_general_ci">
+      <Charset>utf8</Charset>
+      <DefaultForCharset>1</DefaultForCharset>
+    </collation>
+    <collation id="223" parent="1" name="utf8_general_mysql500_ci">
+      <Charset>utf8</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="224" parent="1" name="utf8_german2_ci">
+      <Charset>utf8</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="225" parent="1" name="utf8_hungarian_ci">
+      <Charset>utf8</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="226" parent="1" name="utf8_icelandic_ci">
+      <Charset>utf8</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="227" parent="1" name="utf8_latvian_ci">
+      <Charset>utf8</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="228" parent="1" name="utf8_lithuanian_ci">
+      <Charset>utf8</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="229" parent="1" name="utf8_persian_ci">
+      <Charset>utf8</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="230" parent="1" name="utf8_polish_ci">
+      <Charset>utf8</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="231" parent="1" name="utf8_roman_ci">
+      <Charset>utf8</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="232" parent="1" name="utf8_romanian_ci">
+      <Charset>utf8</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="233" parent="1" name="utf8_sinhala_ci">
+      <Charset>utf8</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="234" parent="1" name="utf8_slovak_ci">
+      <Charset>utf8</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="235" parent="1" name="utf8_slovenian_ci">
+      <Charset>utf8</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="236" parent="1" name="utf8_spanish2_ci">
+      <Charset>utf8</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="237" parent="1" name="utf8_spanish_ci">
+      <Charset>utf8</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="238" parent="1" name="utf8_swedish_ci">
+      <Charset>utf8</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="239" parent="1" name="utf8_turkish_ci">
+      <Charset>utf8</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="240" parent="1" name="utf8_unicode_520_ci">
+      <Charset>utf8</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="241" parent="1" name="utf8_unicode_ci">
+      <Charset>utf8</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="242" parent="1" name="utf8_vietnamese_ci">
+      <Charset>utf8</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="243" parent="1" name="utf8mb4_bin">
+      <Charset>utf8mb4</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="244" parent="1" name="utf8mb4_croatian_ci">
+      <Charset>utf8mb4</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="245" parent="1" name="utf8mb4_czech_ci">
+      <Charset>utf8mb4</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="246" parent="1" name="utf8mb4_danish_ci">
+      <Charset>utf8mb4</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="247" parent="1" name="utf8mb4_esperanto_ci">
+      <Charset>utf8mb4</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="248" parent="1" name="utf8mb4_estonian_ci">
+      <Charset>utf8mb4</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="249" parent="1" name="utf8mb4_general_ci">
+      <Charset>utf8mb4</Charset>
+      <DefaultForCharset>1</DefaultForCharset>
+    </collation>
+    <collation id="250" parent="1" name="utf8mb4_german2_ci">
+      <Charset>utf8mb4</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="251" parent="1" name="utf8mb4_hungarian_ci">
+      <Charset>utf8mb4</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="252" parent="1" name="utf8mb4_icelandic_ci">
+      <Charset>utf8mb4</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="253" parent="1" name="utf8mb4_latvian_ci">
+      <Charset>utf8mb4</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="254" parent="1" name="utf8mb4_lithuanian_ci">
+      <Charset>utf8mb4</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="255" parent="1" name="utf8mb4_persian_ci">
+      <Charset>utf8mb4</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="256" parent="1" name="utf8mb4_polish_ci">
+      <Charset>utf8mb4</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="257" parent="1" name="utf8mb4_roman_ci">
+      <Charset>utf8mb4</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="258" parent="1" name="utf8mb4_romanian_ci">
+      <Charset>utf8mb4</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="259" parent="1" name="utf8mb4_sinhala_ci">
+      <Charset>utf8mb4</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="260" parent="1" name="utf8mb4_slovak_ci">
+      <Charset>utf8mb4</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="261" parent="1" name="utf8mb4_slovenian_ci">
+      <Charset>utf8mb4</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="262" parent="1" name="utf8mb4_spanish2_ci">
+      <Charset>utf8mb4</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="263" parent="1" name="utf8mb4_spanish_ci">
+      <Charset>utf8mb4</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="264" parent="1" name="utf8mb4_swedish_ci">
+      <Charset>utf8mb4</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="265" parent="1" name="utf8mb4_turkish_ci">
+      <Charset>utf8mb4</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="266" parent="1" name="utf8mb4_unicode_520_ci">
+      <Charset>utf8mb4</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="267" parent="1" name="utf8mb4_unicode_ci">
+      <Charset>utf8mb4</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <collation id="268" parent="1" name="utf8mb4_vietnamese_ci">
+      <Charset>utf8mb4</Charset>
+      <DefaultForCharset>0</DefaultForCharset>
+    </collation>
+    <table id="269" parent="2" name="cn_area"/>
+    <table id="270" parent="2" name="cn_city"/>
+    <table id="271" parent="2" name="cn_province"/>
+    <table id="272" parent="2" name="cn_telephone_attr"/>
+    <table id="273" parent="40" name="bm">
+      <Engine>InnoDB</Engine>
+    </table>
+    <table id="274" parent="40" name="eve_article">
+      <Engine>InnoDB</Engine>
+    </table>
+    <table id="275" parent="40" name="eve_article_category">
+      <Engine>InnoDB</Engine>
+    </table>
+    <table id="276" parent="40" name="eve_category">
+      <Engine>InnoDB</Engine>
+    </table>
+    <table id="277" parent="40" name="eve_component">
+      <Engine>InnoDB</Engine>
+    </table>
+    <table id="278" parent="40" name="eve_page">
+      <Engine>InnoDB</Engine>
+    </table>
+    <table id="279" parent="40" name="eve_shop">
+      <Engine>InnoDB</Engine>
+    </table>
+    <table id="280" parent="40" name="eve_shop_info">
+      <Engine>InnoDB</Engine>
+    </table>
+    <table id="281" parent="40" name="eve_site">
+      <Engine>InnoDB</Engine>
+    </table>
+    <table id="282" parent="40" name="eve_site_resource">
+      <Engine>InnoDB</Engine>
+    </table>
+    <table id="283" parent="40" name="eve_templet">
+      <Engine>InnoDB</Engine>
+    </table>
+    <table id="284" parent="40" name="eve_templet_category">
+      <Engine>InnoDB</Engine>
+    </table>
+    <table id="285" parent="40" name="eve_templet_component">
+      <Engine>InnoDB</Engine>
+    </table>
+    <table id="286" parent="40" name="item_daily_statistics">
+      <Comment>商品统计</Comment>
+      <Engine>InnoDB</Engine>
+    </table>
+    <table id="287" parent="40" name="job_execution_log">
+      <Engine>InnoDB</Engine>
+    </table>
+    <table id="288" parent="40" name="job_status_trace_log">
+      <Engine>InnoDB</Engine>
+    </table>
+    <table id="289" parent="40" name="open_push_message">
+      <Comment>开发平台推送消息表</Comment>
+      <Engine>InnoDB</Engine>
+    </table>
+    <table id="290" parent="40" name="order_statistic">
+      <Comment>订单统计</Comment>
+      <Engine>InnoDB</Engine>
+    </table>
+    <table id="291" parent="40" name="parana_addresses">
+      <Engine>InnoDB</Engine>
+    </table>
+    <table id="292" parent="40" name="parana_alipay_trans">
+      <Engine>InnoDB</Engine>
+    </table>
+    <table id="293" parent="40" name="parana_back_categories">
+      <Comment>后台类目表</Comment>
+      <Engine>InnoDB</Engine>
+    </table>
+    <table id="294" parent="40" name="parana_bill_order">
+      <Engine>InnoDB</Engine>
+    </table>
+    <table id="295" parent="40" name="parana_brands">
+      <Comment>品牌表</Comment>
+      <Engine>InnoDB</Engine>
+    </table>
+    <table id="296" parent="40" name="parana_cart_items">
+      <Engine>InnoDB</Engine>
+    </table>
+    <table id="297" parent="40" name="parana_category_attributes">
+      <Engine>InnoDB</Engine>
+    </table>
+    <table id="298" parent="40" name="parana_category_bindings">
+      <Comment>前后台叶子类目映射表</Comment>
+      <Engine>InnoDB</Engine>
+    </table>
+    <table id="299" parent="40" name="parana_commission_rules">
+      <Engine>InnoDB</Engine>
+    </table>
+    <table id="300" parent="40" name="parana_delivery_fee_templates">
+      <Comment>运费模板</Comment>
+      <Engine>InnoDB</Engine>
+    </table>
+    <table id="301" parent="40" name="parana_express_companies">
+      <Engine>InnoDB</Engine>
+    </table>
+    <table id="302" parent="40" name="parana_front_categories">
+      <Comment>前台类目表</Comment>
+      <Engine>InnoDB</Engine>
+    </table>
+    <table id="303" parent="40" name="parana_invoices">
+      <Comment>用户发票表</Comment>
+      <Engine>InnoDB</Engine>
+    </table>
+    <table id="304" parent="40" name="parana_item_attributes">
+      <Comment>商品详情</Comment>
+      <Engine>InnoDB</Engine>
+    </table>
+    <table id="305" parent="40" name="parana_item_delivery_fees">
+      <Comment>商品运费表</Comment>
+      <Engine>InnoDB</Engine>
+    </table>
+    <table id="306" parent="40" name="parana_item_details">
+      <Comment>商品详情</Comment>
+      <Engine>InnoDB</Engine>
+    </table>
+    <table id="307" parent="40" name="parana_item_snapshots">
+      <Comment>商品快照表</Comment>
+      <Engine>InnoDB</Engine>
+    </table>
+    <table id="308" parent="40" name="parana_items">
+      <Comment>商品表</Comment>
+      <Engine>InnoDB</Engine>
+    </table>
+    <table id="309" parent="40" name="parana_kjtpay_trans">
+      <Engine>InnoDB</Engine>
+    </table>
+    <table id="310" parent="40" name="parana_materail_info">
+      <Engine>InnoDB</Engine>
+    </table>
+    <table id="311" parent="40" name="parana_operator_roles">
+      <Comment>运营角色表</Comment>
+      <Engine>InnoDB</Engine>
+    </table>
+    <table id="312" parent="40" name="parana_order_comments">
+      <Comment>评价表</Comment>
+      <Engine>InnoDB</Engine>
+    </table>
+    <table id="313" parent="40" name="parana_order_invoices">
+      <Comment>订单发票关联表</Comment>
+      <Engine>InnoDB</Engine>
+    </table>
+    <table id="314" parent="40" name="parana_order_payments">
+      <Comment>支付单和(子)订单关联表</Comment>
+      <Engine>InnoDB</Engine>
+    </table>
+    <table id="315" parent="40" name="parana_order_receiver_infos">
+      <Engine>InnoDB</Engine>
+    </table>
+    <table id="316" parent="40" name="parana_order_refunds">
+      <Comment>退款单和订单关联表</Comment>
+      <Engine>InnoDB</Engine>
+    </table>
+    <table id="317" parent="40" name="parana_order_shipments">
+      <Comment>发货单和(子)订单关联表</Comment>
+      <Engine>InnoDB</Engine>
+    </table>
+    <table id="318" parent="40" name="parana_order_statistics_day">
+      <Comment>订单金额日统计</Comment>
+      <Engine>InnoDB</Engine>
+    </table>
+    <table id="319" parent="40" name="parana_pay_channel_daily_summarys">
+      <Engine>InnoDB</Engine>
+    </table>
+    <table id="320" parent="40" name="parana_pay_channel_details">
+      <Engine>InnoDB</Engine>
+    </table>
+    <table id="321" parent="40" name="parana_payments">
+      <Comment>支付单表</Comment>
+      <Engine>InnoDB</Engine>
+    </table>
+    <table id="322" parent="40" name="parana_platform_trade_daily_summarys">
+      <Engine>InnoDB</Engine>
+    </table>
+    <table id="323" parent="40" name="parana_promotion_defs">
+      <Engine>InnoDB</Engine>
+    </table>
+    <table id="324" parent="40" name="parana_promotion_tracks">
+      <Comment>营销跟踪表</Comment>
+      <Engine>InnoDB</Engine>
+    </table>
+    <table id="325" parent="40" name="parana_promotions">
+      <Engine>InnoDB</Engine>
+    </table>
+    <table id="326" parent="40" name="parana_receiver_infos">
+      <Comment>用户收货信息表</Comment>
+      <Engine>InnoDB</Engine>
+    </table>
+    <table id="327" parent="40" name="parana_refunds">
+      <Comment>退款单表</Comment>
+      <Engine>InnoDB</Engine>
+    </table>
+    <table id="328" parent="40" name="parana_return_order">
+      <Engine>InnoDB</Engine>
+    </table>
+    <table id="329" parent="40" name="parana_seller_trade_daily_summarys">
+      <Engine>InnoDB</Engine>
+    </table>
+    <table id="330" parent="40" name="parana_settle_abnormal_tracks">
+      <Engine>InnoDB</Engine>
+    </table>
+    <table id="331" parent="40" name="parana_settle_order_details">
+      <Engine>InnoDB</Engine>
+    </table>
+    <table id="332" parent="40" name="parana_settle_refund_order_details">
+      <Engine>InnoDB</Engine>
+    </table>
+    <table id="333" parent="40" name="parana_settlement_order">
+      <Engine>InnoDB</Engine>
+    </table>
+    <table id="334" parent="40" name="parana_settlements">
+      <Engine>InnoDB</Engine>
+    </table>
+    <table id="335" parent="40" name="parana_shipments">
+      <Comment>发货单表</Comment>
+      <Engine>InnoDB</Engine>
+    </table>
+    <table id="336" parent="40" name="parana_shop_categories">
+      <Comment>店铺内类目表</Comment>
+      <Engine>InnoDB</Engine>
+    </table>
+    <table id="337" parent="40" name="parana_shop_category_items">
+      <Comment>店铺内类目表</Comment>
+      <Engine>InnoDB</Engine>
+    </table>
+    <table id="338" parent="40" name="parana_shop_extras">
+      <Comment>店铺附加表</Comment>
+      <Engine>InnoDB</Engine>
+    </table>
+    <table id="339" parent="40" name="parana_shop_order_refunds">
+      <Comment>对应shopOrder的退款单</Comment>
+      <Engine>InnoDB</Engine>
+    </table>
+    <table id="340" parent="40" name="parana_shops">
+      <Comment>店铺表</Comment>
+      <Engine>InnoDB</Engine>
+    </table>
+    <table id="341" parent="40" name="parana_sku_order_refunds">
+      <Comment>对应skuOrder的退款单</Comment>
+      <Engine>InnoDB</Engine>
+    </table>
+    <table id="342" parent="40" name="parana_sku_orders">
+      <Comment>sku维度订单</Comment>
+      <Engine>InnoDB</Engine>
+    </table>
+    <table id="343" parent="40" name="parana_sku_templates">
+      <Comment>SKU模板表</Comment>
+      <Engine>InnoDB</Engine>
+    </table>
+    <table id="344" parent="40" name="parana_skus">
+      <Comment>商品SKU表</Comment>
+      <Engine>InnoDB</Engine>
+    </table>
+    <table id="345" parent="40" name="parana_special_delivery_fees">
+      <Comment>特殊区域运费</Comment>
+      <Engine>InnoDB</Engine>
+    </table>
+    <table id="346" parent="40" name="parana_spu_attributes">
+      <Comment>spu属性</Comment>
+      <Engine>InnoDB</Engine>
+    </table>
+    <table id="347" parent="40" name="parana_spu_details">
+      <Comment>SPU详情</Comment>
+      <Engine>InnoDB</Engine>
+    </table>
+    <table id="348" parent="40" name="parana_spus">
+      <Comment>SPU表</Comment>
+      <Engine>InnoDB</Engine>
+    </table>
+    <table id="349" parent="40" name="parana_sub_seller_roles">
+      <Comment>卖家角色表</Comment>
+      <Engine>InnoDB</Engine>
+    </table>
+    <table id="350" parent="40" name="parana_unionpay_trans">
+      <Engine>InnoDB</Engine>
+    </table>
+    <table id="351" parent="40" name="parana_user_operators">
+      <Comment>用户运营表</Comment>
+      <Engine>InnoDB</Engine>
+    </table>
+    <table id="352" parent="40" name="parana_user_profiles">
+      <Comment>用户详情表</Comment>
+      <Engine>InnoDB</Engine>
+    </table>
+    <table id="353" parent="40" name="parana_user_promotions">
+      <Engine>InnoDB</Engine>
+    </table>
+    <table id="354" parent="40" name="parana_user_sellers">
+      <Comment>商家子账户表</Comment>
+      <Engine>InnoDB</Engine>
+    </table>
+    <table id="355" parent="40" name="parana_user_sub_sellers">
+      <Comment>商家子账户表</Comment>
+      <Engine>InnoDB</Engine>
+    </table>
+    <table id="356" parent="40" name="parana_users">
+      <Comment>用户表</Comment>
+      <Engine>InnoDB</Engine>
+    </table>
+    <table id="357" parent="40" name="parana_users_bak">
+      <Comment>用户表</Comment>
+      <Engine>InnoDB</Engine>
+    </table>
+    <table id="358" parent="40" name="parana_wechatpay_trans">
+      <Comment>微信支付账务明细</Comment>
+      <Engine>InnoDB</Engine>
+    </table>
+    <table id="359" parent="40" name="pj_projectmana">
+      <Engine>InnoDB</Engine>
+    </table>
+    <table id="360" parent="40" name="pj_projectmana_d">
+      <Engine>InnoDB</Engine>
+    </table>
+    <table id="361" parent="40" name="production_schedule_contact">
+      <Engine>InnoDB</Engine>
+    </table>
+    <table id="362" parent="40" name="purchase_production_schedule">
+      <Comment>订单维度的按供方排产计划</Comment>
+      <Engine>InnoDB</Engine>
+    </table>
+    <table id="363" parent="40" name="trade_event">
+      <Comment>交易事件表</Comment>
+      <Engine>InnoDB</Engine>
+    </table>
+    <table id="364" parent="40" name="trade_production_schedule">
+      <Comment>供方排产计划</Comment>
+      <Engine>InnoDB</Engine>
+    </table>
+    <table id="365" parent="40" name="trade_production_schedule_event">
+      <Comment>供方排产消息</Comment>
+      <Engine>InnoDB</Engine>
+    </table>
+    <table id="366" parent="40" name="trade_requisition_orders">
+      <Engine>InnoDB</Engine>
+      <Collation>utf8_unicode_ci</Collation>
+    </table>
+    <table id="367" parent="40" name="trade_requisitions">
+      <Comment>请货单/要货单表</Comment>
+      <Engine>InnoDB</Engine>
+    </table>
+    <table id="368" parent="40" name="trade_shipment_requisitions">
+      <Comment>shop维度发货关联表</Comment>
+      <Engine>InnoDB</Engine>
+    </table>
+    <table id="369" parent="40" name="trade_sku_requisitions">
+      <Comment>sku维度要货单</Comment>
+      <Engine>InnoDB</Engine>
+    </table>
+    <table id="370" parent="40" name="trade_sku_shipments">
+      <Comment>sku维度发货关联表</Comment>
+      <Engine>InnoDB</Engine>
+    </table>
+    <table id="371" parent="40" name="trade_supplier_shipment">
+      <Comment>供方收发货单表</Comment>
+      <Engine>InnoDB</Engine>
+    </table>
+    <table id="372" parent="40" name="trade_supplier_shipment_event">
+      <Comment>供方收发货事件表</Comment>
+      <Engine>InnoDB</Engine>
+    </table>
+    <table id="373" parent="40" name="trade_supplier_sku_shipment">
+      <Comment>供方收发货sku</Comment>
+      <Engine>InnoDB</Engine>
+    </table>
+    <table id="374" parent="40" name="trade_tickets">
+      <Comment>ID生成器表</Comment>
+      <Engine>InnoDB</Engine>
+    </table>
+    <table id="375" parent="40" name="user_opt_record">
+      <Comment>用户操作记录</Comment>
+      <Engine>InnoDB</Engine>
+    </table>
+    <table id="376" parent="40" name="vanke_account_exception_statistics">
+      <Comment>账户异常统计表记录表</Comment>
+      <Engine>InnoDB</Engine>
+    </table>
+    <table id="377" parent="40" name="vanke_address_applying_profiles">
+      <Comment>入驻时填写地址信息</Comment>
+      <Engine>InnoDB</Engine>
+    </table>
+    <table id="378" parent="40" name="vanke_address_profiles">
+      <Comment>地址信息</Comment>
+      <Engine>InnoDB</Engine>
+    </table>
+    <table id="379" parent="40" name="vanke_agreement_item">
+      <Engine>InnoDB</Engine>
+    </table>
+    <table id="380" parent="40" name="vanke_agreement_permit">
+      <Comment>协议商品权限表</Comment>
+      <Engine>InnoDB</Engine>
+    </table>
+    <table id="381" parent="40" name="vanke_agreement_sku">
+      <Engine>InnoDB</Engine>
+    </table>
+    <table id="382" parent="40" name="vanke_agreements">
+      <Comment>采购协议</Comment>
+      <Engine>InnoDB</Engine>
+    </table>
+    <table id="383" parent="40" name="vanke_associated_companies">
+      <Comment>供应商经销商合作关系</Comment>
+      <Engine>InnoDB</Engine>
+    </table>
+    <table id="384" parent="40" name="vanke_bank_applying_profiles">
+      <Comment>入驻或审核时的银行信息</Comment>
+      <Engine>InnoDB</Engine>
+    </table>
+    <table id="385" parent="40" name="vanke_bank_profiles">
+      <Comment>银行信息</Comment>
+      <Engine>InnoDB</Engine>
+    </table>
+    <table id="386" parent="40" name="vanke_banks">
+      <Engine>InnoDB</Engine>
+    </table>
+    <table id="387" parent="40" name="vanke_bargain_sku">
+      <Engine>InnoDB</Engine>
+    </table>
+    <table id="388" parent="40" name="vanke_bid_agreements">
+      <Comment>中标协议项目信息</Comment>
+      <Engine>InnoDB</Engine>
+    </table>
+    <table id="389" parent="40" name="vanke_bid_developers">
+      <Engine>InnoDB</Engine>
+    </table>
+    <table id="390" parent="40" name="vanke_bid_items">
+      <Engine>InnoDB</Engine>
+    </table>
+    <table id="391" parent="40" name="vanke_bid_skus">
+      <Engine>InnoDB</Engine>
+    </table>
+    <table id="392" parent="40" name="vanke_bim_categories">
+      <Comment>bim品类表</Comment>
+      <Engine>InnoDB</Engine>
+    </table>
+    <table id="393" parent="40" name="vanke_bim_category_attributes">
+      <Engine>InnoDB</Engine>
+    </table>
+    <table id="394" parent="40" name="vanke_bim_category_owned">
+      <Engine>InnoDB</Engine>
+    </table>
+    <table id="395" parent="40" name="vanke_bim_country_category_relations">
+      <Comment>国家采购类别编码、pdc编对应表</Comment>
+      <Engine>InnoDB</Engine>
+    </table>
+    <table id="396" parent="40" name="vanke_bim_electronic_template">
+      <Comment>电子样板表</Comment>
+      <Engine>InnoDB</Engine>
+    </table>
+    <table id="397" parent="40" name="vanke_brand_shop_extra">
+      <Comment>店铺品牌信息</Comment>
+      <Engine>InnoDB</Engine>
+    </table>
+    <table id="398" parent="40" name="vanke_buyer_comment_daily_sums">
+      <Engine>InnoDB</Engine>
+      <Collation>utf8_unicode_ci</Collation>
+    </table>
+    <table id="399" parent="40" name="vanke_cart">
+      <Engine>InnoDB</Engine>
+    </table>
+    <table id="400" parent="40" name="vanke_category_owned">
+      <Engine>InnoDB</Engine>
+    </table>
+    <table id="401" parent="40" name="vanke_comments">
+      <Engine>InnoDB</Engine>
+      <Collation>utf8_unicode_ci</Collation>
+    </table>
+    <table id="402" parent="40" name="vanke_company_applying_profiles">
+      <Comment>公司入驻的申请表信息</Comment>
+      <Engine>InnoDB</Engine>
+    </table>
+    <table id="403" parent="40" name="vanke_company_profiles">
+      <Comment>公司入驻成功的基本信息</Comment>
+      <Engine>InnoDB</Engine>
+    </table>
+    <table id="404" parent="40" name="vanke_company_profiles_tmp">
+      <Engine>InnoDB</Engine>
+    </table>
+    <table id="405" parent="40" name="vanke_company_rank_histories">
+      <Comment>评级管理</Comment>
+      <Engine>InnoDB</Engine>
+    </table>
+    <table id="406" parent="40" name="vanke_company_rank_profiles">
+      <Comment>评级管理</Comment>
+      <Engine>InnoDB</Engine>
+    </table>
+    <table id="407" parent="40" name="vanke_company_roles">
+      <Comment>万科公司角色列表</Comment>
+      <Engine>InnoDB</Engine>
+    </table>
+    <table id="408" parent="40" name="vanke_company_roles_relation">
+      <Engine>InnoDB</Engine>
+    </table>
+    <table id="409" parent="40" name="vanke_contact_applying_profiles">
+      <Comment>入驻或审核时候联系人信息</Comment>
+      <Engine>InnoDB</Engine>
+    </table>
+    <table id="410" parent="40" name="vanke_contact_profiles">
+      <Comment>联系人信息</Comment>
+      <Engine>InnoDB</Engine>
+    </table>
+    <table id="411" parent="40" name="vanke_contractor_cooperation">
+      <Comment>总包与开发商关系表</Comment>
+      <Engine>InnoDB</Engine>
+    </table>
+    <table id="412" parent="40" name="vanke_country_category_relations">
+      <Comment>国家采购类别编码、pdc编对应表</Comment>
+      <Engine>InnoDB</Engine>
+    </table>
+    <table id="413" parent="40" name="vanke_customer_service">
+      <Engine>InnoDB</Engine>
+    </table>
+    <table id="414" parent="40" name="vanke_data_developer_info">
+      <Engine>InnoDB</Engine>
+    </table>
+    <table id="415" parent="40" name="vanke_data_ratio_upload">
+      <Engine>InnoDB</Engine>
+    </table>
+    <table id="416" parent="40" name="vanke_delivery_scopes">
+      <Comment>供货范围</Comment>
+      <Engine>InnoDB</Engine>
+    </table>
+    <table id="417" parent="40" name="vanke_developer_rank_historys">
+      <Engine>InnoDB</Engine>
+    </table>
+    <table id="418" parent="40" name="vanke_developer_rank_profiles">
+      <Engine>InnoDB</Engine>
+    </table>
+    <table id="419" parent="40" name="vanke_entrust_contracts">
+      <Comment>委托合同信息</Comment>
+      <Engine>InnoDB</Engine>
+    </table>
+    <table id="420" parent="40" name="vanke_exclusive_developer_applyings">
+      <Comment>专属开发商与供应商合作关系申请表</Comment>
+      <Engine>InnoDB</Engine>
+    </table>
+    <table id="421" parent="40" name="vanke_exclusive_developer_coopers">
+      <Engine>InnoDB</Engine>
+    </table>
+    <table id="422" parent="40" name="vanke_flow_org_target">
+      <Comment>组织总体流量目标</Comment>
+      <Engine>InnoDB</Engine>
+    </table>
+    <table id="423" parent="40" name="vanke_flow_statistics">
+      <Comment>流量统计</Comment>
+      <Engine>InnoDB</Engine>
+    </table>
+    <table id="424" parent="40" name="vanke_hitachi">
+      <Comment>日立电梯数据</Comment>
+      <Engine>InnoDB</Engine>
+    </table>
+    <table id="425" parent="40" name="vanke_hitachi_actual">
+      <Comment>日立电梯实时数据</Comment>
+      <Engine>InnoDB</Engine>
+    </table>
+    <table id="426" parent="40" name="vanke_hitachi_fault">
+      <Engine>InnoDB</Engine>
+    </table>
+    <table id="427" parent="40" name="vanke_hitachi_log">
+      <Engine>InnoDB</Engine>
+    </table>
+    <table id="428" parent="40" name="vanke_inspection_ocr_template">
+      <Engine>InnoDB</Engine>
+    </table>
+    <table id="429" parent="40" name="vanke_inspection_production_monitor">
+      <Comment>供应商监控地址</Comment>
+      <Engine>InnoDB</Engine>
+    </table>
+    <table id="430" parent="40" name="vanke_inspection_report">
+      <Engine>InnoDB</Engine>
+    </table>
+    <table id="431" parent="40" name="vanke_inspection_standard">
+      <Engine>InnoDB</Engine>
+    </table>
+    <table id="432" parent="40" name="vanke_inspection_supplier_model">
+      <Engine>InnoDB</Engine>
+    </table>
+    <table id="433" parent="40" name="vanke_ip_geo">
+      <Comment>ip地理位置信息表</Comment>
+      <Engine>InnoDB</Engine>
+    </table>
+    <table id="434" parent="40" name="vanke_item_attribute">
+      <Engine>InnoDB</Engine>
+    </table>
+    <table id="435" parent="40" name="vanke_item_comment_daily_sums">
+      <Engine>InnoDB</Engine>
+      <Collation>utf8_unicode_ci</Collation>
+    </table>
+    <table id="436" parent="40" name="vanke_item_extra">
+      <Engine>InnoDB</Engine>
+    </table>
+    <table id="437" parent="40" name="vanke_item_inspection_report">
+      <Engine>InnoDB</Engine>
+    </table>
+    <table id="438" parent="40" name="vanke_item_visitor_journal">
+      <Engine>InnoDB</Engine>
+    </table>
+    <table id="439" parent="40" name="vanke_item_yuhong_inspection">
+      <Engine>InnoDB</Engine>
+    </table>
+    <table id="440" parent="40" name="vanke_key_word">
+      <Engine>InnoDB</Engine>
+      <Collation>utf8_bin</Collation>
+    </table>
+    <table id="441" parent="40" name="vanke_message">
+      <Engine>InnoDB</Engine>
+    </table>
+    <table id="442" parent="40" name="vanke_notices">
+      <Engine>InnoDB</Engine>
+    </table>
+    <table id="443" parent="40" name="vanke_open_apps">
+      <Comment>appKey管理表</Comment>
+      <Engine>InnoDB</Engine>
+    </table>
+    <table id="444" parent="40" name="vanke_open_authorizations">
+      <Comment>服务授权表</Comment>
+      <Engine>InnoDB</Engine>
+    </table>
+    <table id="445" parent="40" name="vanke_open_partner_company">
+      <Comment>外部合作方客户公司关联表</Comment>
+      <Engine>InnoDB</Engine>
+    </table>
+    <table id="446" parent="40" name="vanke_open_partner_trade">
+      <Comment>外部合作方下单关联表</Comment>
+      <Engine>InnoDB</Engine>
+    </table>
+    <table id="447" parent="40" name="vanke_open_pull_journal">
+      <Engine>InnoDB</Engine>
+    </table>
+    <table id="448" parent="40" name="vanke_open_push_host">
+      <Comment>服务授权表</Comment>
+      <Engine>InnoDB</Engine>
+    </table>
+    <table id="449" parent="40" name="vanke_open_push_journal">
+      <Engine>InnoDB</Engine>
+    </table>
+    <table id="450" parent="40" name="vanke_operation_record">
+      <Engine>InnoDB</Engine>
+    </table>
+    <table id="451" parent="40" name="vanke_order_pay_details">
+      <Engine>InnoDB</Engine>
+      <Collation>utf8_unicode_ci</Collation>
+    </table>
+    <table id="452" parent="40" name="vanke_order_refund_relations">
+      <Engine>InnoDB</Engine>
+      <Collation>utf8_unicode_ci</Collation>
+    </table>
+    <table id="453" parent="40" name="vanke_originality_confirm_interface">
+      <Comment>匠心要货审批接口表</Comment>
+      <Engine>InnoDB</Engine>
+    </table>
+    <table id="454" parent="40" name="vanke_originality_order_interface">
+      <Comment>匠心要货单申请接口表</Comment>
+      <Engine>InnoDB</Engine>
+    </table>
+    <table id="455" parent="40" name="vanke_originality_port">
+      <Comment>传送接口表</Comment>
+      <Engine>InnoDB</Engine>
+      <Collation>utf8_bin</Collation>
+    </table>
+    <table id="456" parent="40" name="vanke_pay_center_flows">
+      <Engine>InnoDB</Engine>
+    </table>
+    <table id="457" parent="40" name="vanke_pay_center_interactive">
+      <Engine>InnoDB</Engine>
+    </table>
+    <table id="458" parent="40" name="vanke_pay_channel">
+      <Engine>InnoDB</Engine>
+    </table>
+    <table id="459" parent="40" name="vanke_pay_journal">
+      <Engine>InnoDB</Engine>
+    </table>
+    <table id="460" parent="40" name="vanke_pay_jsb_account">
+      <Engine>InnoDB</Engine>
+    </table>
+    <table id="461" parent="40" name="vanke_pay_match">
+      <Engine>InnoDB</Engine>
+    </table>
+    <table id="462" parent="40" name="vanke_pay_online">
+      <Engine>InnoDB</Engine>
+    </table>
+    <table id="463" parent="40" name="vanke_pay_online_interactive">
+      <Engine>InnoDB</Engine>
+    </table>
+    <table id="464" parent="40" name="vanke_pay_platform_account">
+      <Engine>InnoDB</Engine>
+    </table>
+    <table id="465" parent="40" name="vanke_pay_wall_journal">
+      <Engine>InnoDB</Engine>
+    </table>
+    <table id="466" parent="40" name="vanke_purchase_order_extras">
+      <Engine>InnoDB</Engine>
+      <Collation>utf8_unicode_ci</Collation>
+    </table>
+    <table id="467" parent="40" name="vanke_purchase_orders">
+      <Engine>InnoDB</Engine>
+      <Collation>utf8_unicode_ci</Collation>
+    </table>
+    <table id="468" parent="40" name="vanke_purchase_sku_orders">
+      <Engine>InnoDB</Engine>
+      <Collation>utf8_unicode_ci</Collation>
+    </table>
+    <table id="469" parent="40" name="vanke_quote_basefile">
+      <Engine>InnoDB</Engine>
+    </table>
+    <table id="470" parent="40" name="vanke_quote_list">
+      <Engine>InnoDB</Engine>
+    </table>
+    <table id="471" parent="40" name="vanke_repair_order_items">
+      <Engine>InnoDB</Engine>
+      <Collation>utf8_unicode_ci</Collation>
+    </table>
+    <table id="472" parent="40" name="vanke_repair_orders">
+      <Engine>InnoDB</Engine>
+      <Collation>utf8_unicode_ci</Collation>
+    </table>
+    <table id="473" parent="40" name="vanke_screen_category">
+      <Engine>InnoDB</Engine>
+    </table>
+    <table id="474" parent="40" name="vanke_search_journal">
+      <Comment>搜索记录</Comment>
+      <Engine>InnoDB</Engine>
+    </table>
+    <table id="475" parent="40" name="vanke_seller_item_comment_sums">
+      <Engine>InnoDB</Engine>
+      <Collation>utf8_unicode_ci</Collation>
+    </table>
+    <table id="476" parent="40" name="vanke_seller_pay_requests">
+      <Engine>InnoDB</Engine>
+      <Collation>utf8_unicode_ci</Collation>
+    </table>
+    <table id="477" parent="40" name="vanke_shop_visitor_journal">
+      <Engine>InnoDB</Engine>
+    </table>
+    <table id="478" parent="40" name="vanke_sku_attribute">
+      <Engine>InnoDB</Engine>
+    </table>
+    <table id="479" parent="40" name="vanke_sku_attribute_authority">
+      <Engine>InnoDB</Engine>
+    </table>
+    <table id="480" parent="40" name="vanke_sku_order_relations">
+      <Comment>sku维度关联表</Comment>
+      <Engine>InnoDB</Engine>
+      <Collation>utf8_unicode_ci</Collation>
+    </table>
+    <table id="481" parent="40" name="vanke_sku_price">
+      <Engine>InnoDB</Engine>
+    </table>
+    <table id="482" parent="40" name="vanke_skynet">
+      <Engine>InnoDB</Engine>
+    </table>
+    <table id="483" parent="40" name="vanke_skynet_analysis">
+      <Engine>InnoDB</Engine>
+    </table>
+    <table id="484" parent="40" name="vanke_skynet_image_analysis">
+      <Engine>InnoDB</Engine>
+    </table>
+    <table id="485" parent="40" name="vanke_srm_bid">
+      <Engine>InnoDB</Engine>
+      <Collation>utf8_unicode_ci</Collation>
+    </table>
+    <table id="486" parent="40" name="vanke_sso_record">
+      <Comment>sso访问记录</Comment>
+      <Engine>InnoDB</Engine>
+    </table>
+    <table id="487" parent="40" name="vanke_supplier_bids">
+      <Comment>供应商中标信息表</Comment>
+      <Engine>InnoDB</Engine>
+    </table>
+    <table id="488" parent="40" name="vanke_taxation_applying_profiles">
+      <Comment>入驻时候的的税务信息</Comment>
+      <Engine>InnoDB</Engine>
+    </table>
+    <table id="489" parent="40" name="vanke_taxation_profiles">
+      <Comment>税务信息</Comment>
+      <Engine>InnoDB</Engine>
+    </table>
+    <table id="490" parent="40" name="vanke_unit_of_measures">
+      <Engine>InnoDB</Engine>
+    </table>
+    <table id="491" parent="40" name="vanke_user_extras">
+      <Comment>公司用户关联表</Comment>
+      <Engine>InnoDB</Engine>
+    </table>
+    <table id="492" parent="40" name="vanke_user_relation">
+      <Engine>InnoDB</Engine>
+    </table>
+    <table id="493" parent="40" name="vanke_user_trial">
+      <Comment>用户体验登记</Comment>
+      <Engine>InnoDB</Engine>
+    </table>
+    <table id="494" parent="40" name="vanke_warehouse_applying_profiles">
+      <Engine>InnoDB</Engine>
+    </table>
+    <table id="495" parent="40" name="vanke_warehouse_profiles">
+      <Comment>入驻或审核时的工厂信息</Comment>
+      <Engine>InnoDB</Engine>
+    </table>
+    <table id="496" parent="40" name="wyd_company_profiles">
+      <Engine>InnoDB</Engine>
+    </table>
+    <table id="497" parent="40" name="wz_user">
+      <Engine>InnoDB</Engine>
+    </table>
+  </database-model>
+</dataSource>
